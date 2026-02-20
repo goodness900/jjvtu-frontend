@@ -1,4 +1,4 @@
-const BACKEND_URL = "https://jjvtu-backend.Nicenrish00.replit.app";
+const BACKEND_URL = "https://jjvtu-backend.nicenrish00.replit.app";
 
 function login() {
   const username = document.getElementById("username").value;

@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JJ VTU Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <div class="container">
+    <h2>Welcome to JJ VTU</h2>
+
+    <p>Wallet Balance: ₦<span id="balance">0</span></p>
+
+    <h3>Buy Airtime</h3>
+    <input type="text" id="phone" placeholder="Phone Number">
+    <input type="number" id="amount" placeholder="Amount">
+    <button onclick="buyAirtime()">Buy Airtime</button>
+
+    <br><br>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
